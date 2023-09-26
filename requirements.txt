@@ -1,0 +1,8 @@
+tiktoken
+openai
+pydantic
+fastcore
+transformers
+wikipedia-api
+torch
+ipykernel
