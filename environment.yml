@@ -1,0 +1,25 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.11.*
+  - jupyter
+  - notebook
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - tiktoken
+    - openai
+    - fastcore
+    - transformers
+    - torch
+    - wikipedia-api
+    - sentence_transformers
+    - datasets
+    - accelerate
+    - bitsandbytes
+    - peft
+    - llama-cpp-python
+    - optimum
+    - auto-gptq
+    - pydantic
