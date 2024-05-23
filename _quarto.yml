@@ -1,0 +1,17 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+website:
+  twitter-card: true
+  open-graph: true
+  navbar:
+    background: primary
+    search: true
+  sidebar:
+    style: floating
+
