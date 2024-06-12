@@ -10,7 +10,8 @@ strict: false
 
 datasets:
   - path: knowrohit07/know_sql
-    type: context_qa2
+    type: context_qa.load_v2
+    train_on_split: validation
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
 output_dir: ./qlora-out
@@ -59,6 +60,7 @@ flash_attention: true
 warmup_steps: 10
 eval_steps: 20
 eval_table_size: 5
+eval_sample_packing: false
 save_steps:
 debug:
 deepspeed:
